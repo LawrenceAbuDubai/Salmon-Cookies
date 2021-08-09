@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, sans-serif;
+  }
+  img {
+    width: 100px;
+  }
+  
+  
+  td,
+  tf {
+    border: 1px solid red;
+  }
+  #hi {
+    color: red;
+  }
