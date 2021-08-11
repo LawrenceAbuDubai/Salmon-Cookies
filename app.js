@@ -42,9 +42,9 @@ function Branch(branchName, minCust, maxCust, avgSale) {
         let trEl = document.createElement('tr');
         tableEl.appendChild(trEl);
 
-        let tdEl0 = document.createElement('td');
-        trEl.appendChild(tdEl0);
-        tdEl0.textContent = this.branchName;
+        let tdEl1 = document.createElement('td');
+        trEl.appendChild(tdEl1);
+        tdEl1.textContent = this.branchName;
     
         for (let index = 1; index <= this.sales.length; index++) {
             let tdEl1 = document.createElement('td');
@@ -79,6 +79,9 @@ function Branch(branchName, minCust, maxCust, avgSale) {
         trEl.appendChild(thEl15);
         thEl15.textContent = 'Daily Location Total';
     }
+
+
+    
 
     createTableHeader();
 
@@ -137,3 +140,25 @@ function createTablegfooter() {
 let fullRec = Seattle.totalCookie + Tokyo.totalCookie + Dubai.totalCookie + Paris.totalCookie + Lima.totalCookie;
 
 createTablegfooter();
+
+
+let myform = document.getElementById('myForm');
+    myform.addEventListener('submit', addbranch);
+    function addbranch(event) {
+        event.preventDefault();
+        let branchName = event.target.name.value;
+        let minCust = event.target.minCust.value;
+        let maxCust = event.target.maxCust.value;
+        let avgSale = event.target.avgSale.value;
+        let newBranch = new Branch(branchName, minCust, maxCust, avgSale);
+
+
+
+        newBranch.getCust(minCust, maxCust);
+
+        tableEl.deleteRow(-1);
+
+        newBranch.render();
+        createTablegfooter();
+    }
+
