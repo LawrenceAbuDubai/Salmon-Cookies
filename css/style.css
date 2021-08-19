@@ -1,0 +1,168 @@
+.h12{
+    font-family: 'Anton', sans-serif;
+    font-size:60px;
+  }
+  
+  header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+  
+  img{
+    align-self: auto;
+  }
+  
+  
+  topnav {
+    background-color: rgb(82, 5, 5);
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(155, 15, 15);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #17c91d;
+    color: white;
+  }
+  
+  
+  body {
+      margin: 0;
+      background: linear-gradient(45deg, #687777, #12011d);
+      font-family: sans-serif;
+      font-weight: 100;
+  }
+  
+  .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  table {
+      width: 800px;
+      border-collapse: collapse;
+      overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 300px;
+  }
+  
+  th,
+  td {
+      padding: 15px;
+      background-color: rgba(255,255,255,0.2);
+      color: #fff;
+  }
+  
+  th {
+      text-align: left;
+  }
+  
+  thead 
+      th {
+          background-color: #500511;
+      }
+  
+  
+  
+  .foot{
+    margin-bottom: 50px;
+  }
+  
+  .img1{
+    margin-left: 500px;
+    width: 450px;
+    height: 250px;
+  }
+  
+  #id1{
+    text-align: left;
+    color:white;
+    font-size:16px;
+    padding:60px;
+    margin:10px;
+  }
+  .img2{
+    width: 450px;
+    height: 250px;
+    margin-left:200px
+  }
+  
+  #tshirt{
+    float: left;
+    margin-left:300px
+  }
+  
+  
+  div.id2 > img:last-child {
+    margin-left:0px;
+  }
+  
+  
+  
+  .t{
+    font-size:16px;
+    padding:-5px;
+    margin:1px;
+    text-align: center;
+  }
+  
+  #id2{
+    text-align: center;
+    color:white;
+    font-size:16px;
+    padding:60px;
+    margin:10px;
+  }
+  
+  .s1{
+    font-size:20px;
+    padding:20px;
+    margin:20px;
+    text-align: right;
+  }
+  
+  #fish{
+    float: right
+  }
+  
+  .foot{
+    text-align: left;
+    color:white;
+    font-size:16px;
+    padding:60px;
+    margin:10px;
+  }
+  
+  
+  
+  #id3{
+    text-align: center;
+    color:white;
+    font-size:16px;
+    padding:-50px;
+    margin:-40px;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  
+  .m1{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+  }
